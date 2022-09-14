@@ -1,0 +1,96 @@
+h1 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color: #eee;
+    width: 15%;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+}
+#left-container{
+    left: 0px;
+}
+#right-container{
+    right: 0px;
+}
+.plant-holder{
+    position: relative;
+    height: 13%;
+    left: -10px;
+}
+.plant {
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index:2;
+}
+.jar-walls{
+    height: 80%;
+    width: 60%;
+    background: #d1e1df;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0.5%;
+    left: 20%;
+    opacity: 0.5;
+    z-index: 1;
+}
+.jar-top{
+    width: 50%;
+    height: 8%;
+    background: #d1e1df;
+    left: 25%;
+    position: absolute;
+    bottom: 80.5%;
+    opacity: .7;
+    z-index: 1;
+}
+.jar-bottom{
+    width: 50%;
+    height: 1%;
+    position: absolute;  /*yet to fully understand*/
+    background: #d1e1df;
+    left: 25%;
+    opacity: .7;
+    bottom: 0%;
+}
+.jar-dirt{
+    width: 60%;
+    height: 5%;
+    background: #3a241d;
+    position: absolute;
+    border-radius: 0 0 1rem 1rem;
+    opacity: .7;
+    bottom: 1%;
+    left: 20%;
+}
+
+.jar-glossy-short{
+    margin: 10%;
+    width: 2%;
+    height: 20%;
+    bottom: 40%;
+    background: rgb(245, 245, 245);
+    border-radius: 6rem;
+    position: absolute;
+    z-index: 2;
+    opacity: .7;
+}
+.jar-glossy-long{
+    margin: 10%;
+    width: 2%;
+    height: 30%;
+    bottom: 0%;
+    background: rgb(245, 245, 245);
+    border-radius: 6rem;
+    position: absolute;
+    z-index: 2;
+    opacity: .7;
+}
